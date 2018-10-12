@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/oldname_update_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@android:color/holo_red_light"
+        android:hint="@string/enter_old_name_of_task" />
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:id="@+id/newname_update_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="@string/enter_new_name_of_task" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/newnumber_update_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/enter_priority_number_of_task" />
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

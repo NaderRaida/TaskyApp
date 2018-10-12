@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="select your background color"
+
+        />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/black"
+            android:id="@+id/black_color"
+            />
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_purple"
+            android:id="@+id/purple_color"
+            />
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_blue_bright"
+            android:id="@+id/blue_color"
+            />
+        <View
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_green_dark"
+            android:id="@+id/green_color"
+            />
+    </LinearLayout>
+</LinearLayout>

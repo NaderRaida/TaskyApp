@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tasky</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_of_task">title_of_task</string>
+    <string name="priority_number">priority_number</string>
+    <string name="date">Date</string>
+    <string name="add">ADD</string>
+    <string name="enter_priority_number_of_task">Enter priority number of task 1-5</string>
+    <string name="enter_name_of_task">Enter name of task</string>
+    <string name="delete">delete</string>
+    <string name="enter_old_name_of_task">Enter old name of task</string>
+    <string name="enter_new_name_of_task">Enter new Name of task</string>
+    <string name="action_delete">delete</string>
+</resources>
